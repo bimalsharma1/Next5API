@@ -21,18 +21,7 @@ namespace Next5API
                     {
                         new Race()
                         {
-                            MeetingCode = "H", RaceNo = 1, RaceName = "Brisbane", RaceClosedTime=DateTime.Now.AddSeconds(60), IsSuspended=false,
-                                Competitor = new List<Competitor>()
-                                {
-                                    new Competitor()
-                                    {
-                                        CompetitorNo =1, Name="Queen", StartPosition=1, RaceNo=1
-                                    },
-                                    new Competitor()
-                                    {
-                                        CompetitorNo =2, Name="Queen2", StartPosition=2, RaceNo=1
-                                    }
-                                }
+                            MeetingCode = "H", RaceNo = 1, RaceName = "Brisbane", RaceClosedTime=DateTime.Now.AddSeconds(60), IsSuspended=false
                         }
                     }
                 },new Next5() { MeetingName="Doomben",
@@ -40,18 +29,7 @@ namespace Next5API
                     {
                         new Race()
                         {
-                            MeetingCode = "H", RaceNo = 1, RaceName = "Brisbane", RaceClosedTime=DateTime.Now.AddSeconds(60), IsSuspended=false,
-                                Competitor = new List<Competitor>()
-                                {
-                                    new Competitor()
-                                    {
-                                        CompetitorNo =1, Name="Queen", StartPosition=1, RaceNo=1
-                                    },
-                                    new Competitor()
-                                    {
-                                        CompetitorNo =2, Name="Queen2", StartPosition=2, RaceNo=1
-                                    }
-                                }
+                            MeetingCode = "H", RaceNo = 1, RaceName = "Brisbane", RaceClosedTime=DateTime.Now.AddSeconds(60), IsSuspended=false
                         }
                     }
                 },new Next5() { MeetingName="Aria",
@@ -59,18 +37,7 @@ namespace Next5API
                     {
                         new Race()
                         {
-                            MeetingCode = "H", RaceNo = 1, RaceName = "Brisbane", RaceClosedTime=DateTime.Now.AddSeconds(60), IsSuspended=false,
-                                Competitor = new List<Competitor>()
-                                {
-                                    new Competitor()
-                                    {
-                                        CompetitorNo =1, Name="Queen", StartPosition=1, RaceNo=1
-                                    },
-                                    new Competitor()
-                                    {
-                                        CompetitorNo =2, Name="Queen2", StartPosition=2, RaceNo=1
-                                    }
-                                }
+                            MeetingCode = "H", RaceNo = 1, RaceName = "Brisbane", RaceClosedTime=DateTime.Now.AddSeconds(60), IsSuspended=false
                         }
                     }
                 },
