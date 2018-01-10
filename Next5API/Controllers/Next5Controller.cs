@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Next5API.Controllers
 {
-    //[Produces("application/json")]
     [Route("api/Next5")]
     public class Next5Controller : Controller
     {
@@ -15,32 +14,11 @@ namespace Next5API.Controllers
         [HttpGet]
         public ActionResult Get()
         {
-            return Ok(Next5DataStore.Current.Next5);
+            return Ok(Next5DataStore.Current.Next5
+                .Where(n => n.Races
+                            .OrderBy(r => r.RaceClosedTime)
+                            .All(r=>r.IsSuspended==false))
+                .Take(5));
         }
-
-        // GET: api/Next5/5
-        //[HttpGet("{id}", Name = "Get")]
-        //public IActionResult Get(int id)
-        //{
-        //    return Ok(Next5DataStore.Current.Next5);
-        //}
-        
-        //// POST: api/Next5
-        //[HttpPost]
-        //public void Post([FromBody]string value)
-        //{
-        //}
-        
-        //// PUT: api/Next5/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody]string value)
-        //{
-        //}
-        
-        //// DELETE: api/ApiWithActions/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
     }
 }
