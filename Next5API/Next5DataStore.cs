@@ -30,7 +30,7 @@ namespace Next5API
                     {
                         new Race()
                         {
-                            MeetingCode = "G", RaceNo = 2, RaceName = "DIRT Claiming", RaceClosedTime=DateTime.UtcNow.AddSeconds(935), IsSuspended=true
+                            MeetingCode = "G", RaceNo = 2, RaceName = "DIRT Claiming", RaceClosedTime= DateTime.UtcNow.AddSeconds(935), IsSuspended=true
                         }
                     }
                 },new Next5() { 
