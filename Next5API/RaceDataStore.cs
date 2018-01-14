@@ -18,7 +18,7 @@ namespace Next5API
                   {
                         new Race()
                         {
-                            MeetingCode = "H", RaceNo = 1, RaceName = "Brisbane", RaceClosedTime=DateTime.Now.AddSeconds(60), IsSuspended=false,
+                            MeetingCode = "H", RaceNo = 1, RaceName = "Brisbane", RaceClosedTime=DateTime.Now.AddSeconds(960), IsSuspended=false,
                                 Competitor = new List<Competitor>()
                                 {
                                     new Competitor()
@@ -46,7 +46,7 @@ namespace Next5API
                         },
                         new Race()
                         {
-                            MeetingCode = "H", RaceNo = 2, RaceName = "Hot shots", RaceClosedTime=DateTime.Now.AddSeconds(60), IsSuspended=false,
+                            MeetingCode = "H", RaceNo = 2, RaceName = "Hot shots", RaceClosedTime=DateTime.Now.AddSeconds(960), IsSuspended=false,
                                 Competitor = new List<Competitor>()
                                 {
                                     new Competitor()
@@ -74,7 +74,7 @@ namespace Next5API
                         },
                         new Race()
                         {
-                            MeetingCode = "H", RaceNo = 3, RaceName = "MAIDEN PLATE", RaceClosedTime=DateTime.Now.AddSeconds(60), IsSuspended=false,
+                            MeetingCode = "H", RaceNo = 3, RaceName = "MAIDEN PLATE", RaceClosedTime=DateTime.Now.AddSeconds(960), IsSuspended=false,
                                 Competitor = new List<Competitor>()
                                 {
                                     new Competitor()
