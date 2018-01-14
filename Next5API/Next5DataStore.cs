@@ -22,7 +22,7 @@ namespace Next5API
                     {
                         new Race()
                         {
-                            MeetingCode = "T", RaceNo = 1, RaceName = "Brisbane", RaceClosedTime=DateTime.UtcNow.AddSeconds(30), IsSuspended=false
+                            MeetingCode = "T", RaceNo = 1, RaceName = "Brisbane", RaceClosedTime=DateTime.UtcNow.AddSeconds(930), IsSuspended=false
                         }
                     }
                 },new Next5() { 
@@ -30,7 +30,7 @@ namespace Next5API
                     {
                         new Race()
                         {
-                            MeetingCode = "G", RaceNo = 2, RaceName = "DIRT Claiming", RaceClosedTime=DateTime.UtcNow.AddSeconds(35), IsSuspended=true
+                            MeetingCode = "G", RaceNo = 2, RaceName = "DIRT Claiming", RaceClosedTime=DateTime.UtcNow.AddSeconds(935), IsSuspended=true
                         }
                     }
                 },new Next5() { 
@@ -38,7 +38,7 @@ namespace Next5API
                     {
                         new Race()
                         {
-                            MeetingCode = "H", RaceNo = 3, RaceName = "3YO BM 70 HANDICAP", RaceClosedTime=DateTime.UtcNow.AddSeconds(40), IsSuspended=false
+                            MeetingCode = "H", RaceNo = 3, RaceName = "3YO BM 70 HANDICAP", RaceClosedTime=DateTime.UtcNow.AddSeconds(940), IsSuspended=false
                         }
                     }
                 },new Next5() { 
@@ -46,7 +46,7 @@ namespace Next5API
                     {
                         new Race()
                         {
-                            MeetingCode = "T", RaceNo = 2, RaceName = "MAIDEN HANDICAP", RaceClosedTime=DateTime.UtcNow.AddSeconds(45), IsSuspended=false
+                            MeetingCode = "T", RaceNo = 2, RaceName = "MAIDEN HANDICAP", RaceClosedTime=DateTime.UtcNow.AddSeconds(945), IsSuspended=false
                         }
                     }
                 },new Next5() { 
@@ -54,7 +54,7 @@ namespace Next5API
                     {
                         new Race()
                         {
-                            MeetingCode = "G", RaceNo = 2, RaceName = "3YO FILLIES MAIDEN", RaceClosedTime=DateTime.UtcNow.AddSeconds(50), IsSuspended=false
+                            MeetingCode = "G", RaceNo = 2, RaceName = "3YO FILLIES MAIDEN", RaceClosedTime=DateTime.UtcNow.AddSeconds(950), IsSuspended=false
                         }
                     }
                 },new Next5() { 
@@ -62,7 +62,7 @@ namespace Next5API
                     {
                         new Race()
                         {
-                            MeetingCode = "H", RaceNo = 1, RaceName = "MAIDEN PLATE", RaceClosedTime=DateTime.UtcNow.AddSeconds(60), IsSuspended=false
+                            MeetingCode = "H", RaceNo = 1, RaceName = "MAIDEN PLATE", RaceClosedTime=DateTime.UtcNow.AddSeconds(960), IsSuspended=false
                         }
                     }
                 },new Next5() { 
@@ -70,7 +70,7 @@ namespace Next5API
                     {
                         new Race()
                         {
-                            MeetingCode = "T", RaceNo = 1, RaceName = "3YO MAIDEN PLATE", RaceClosedTime=DateTime.UtcNow.AddSeconds(70), IsSuspended=false
+                            MeetingCode = "T", RaceNo = 1, RaceName = "3YO MAIDEN PLATE", RaceClosedTime=DateTime.UtcNow.AddSeconds(970), IsSuspended=false
                         }
                     }
                 },new Next5() { 
@@ -78,7 +78,7 @@ namespace Next5API
                     {
                         new Race()
                         {
-                            MeetingCode = "G", RaceNo = 3, RaceName = "AWT : HANDICAP", RaceClosedTime=DateTime.UtcNow.AddSeconds(80), IsSuspended=false
+                            MeetingCode = "G", RaceNo = 3, RaceName = "AWT : HANDICAP", RaceClosedTime=DateTime.UtcNow.AddSeconds(980), IsSuspended=false
                         }
                     }
                 },new Next5() { 
@@ -86,7 +86,7 @@ namespace Next5API
                     {
                         new Race()
                         {
-                            MeetingCode = "H", RaceNo = 3, RaceName = "CLASS 5", RaceClosedTime=DateTime.UtcNow.AddSeconds(90), IsSuspended=false
+                            MeetingCode = "H", RaceNo = 3, RaceName = "CLASS 5", RaceClosedTime=DateTime.UtcNow.AddSeconds(990), IsSuspended=false
                         }
                     }
                 },new Next5() { 
@@ -94,7 +94,7 @@ namespace Next5API
                     {
                         new Race()
                         {
-                            MeetingCode = "T", RaceNo = 1, RaceName = "CLASS 5", RaceClosedTime=DateTime.UtcNow.AddSeconds(100), IsSuspended=false
+                            MeetingCode = "T", RaceNo = 1, RaceName = "CLASS 5", RaceClosedTime=DateTime.UtcNow.AddSeconds(1900), IsSuspended=false
                         }
                     }
                 },new Next5() { 
@@ -102,7 +102,7 @@ namespace Next5API
                     {
                         new Race()
                         {
-                            MeetingCode = "G", RaceNo = 1, RaceName = "Brisbane", RaceClosedTime=DateTime.UtcNow.AddSeconds(110), IsSuspended=false
+                            MeetingCode = "G", RaceNo = 1, RaceName = "Brisbane", RaceClosedTime=DateTime.UtcNow.AddSeconds(1910), IsSuspended=false
                         }
                     }
                 },new Next5() { 
